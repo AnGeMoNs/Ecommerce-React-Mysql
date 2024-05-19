@@ -1,0 +1,128 @@
+/* cart.css */
+
+.cart-view-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.cart-view-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cart-view-items {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.cart-view-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 20px;
+    text-align: left;
+}
+
+.cart-view-item-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cart-view-item-subtotal {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cart-view-quantity-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cart-view-quantity-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-view-quantity-button:hover {
+    background-color: #555;
+}
+
+.cart-view-total {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.cart-view-order-form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.cart-view-order-form-group {
+    margin-bottom: 15px;
+}
+
+.cart-view-order-form-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.cart-view-order-form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.cart-view-payment-options {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.cart-view-payment-option {
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 5px;
+    transition: border-color 0.3s;
+}
+
+.cart-view-payment-option.selected {
+    border-color: #333;
+}
+
+.cart-view-order-form-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart-view-order-form-button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
